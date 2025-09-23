@@ -141,6 +141,7 @@ public class Main {
 
             // 写入结果
             writeResult(args[2], similarity);
+            System.out.println("查重完成");
 
         } catch (IOException e) {
             System.err.println("处理文件时发生错误：" + e.getMessage());
