@@ -127,7 +127,7 @@ public class Main {
     public static void main(String[] args) {
         // 验证参数
         if (args.length != 3) {
-            System.err.println("参数错误！正确格式：java -jar main.jar [原文路径] [抄袭文路径] [结果路径]");
+            System.err.println("参数错误！正确格式：java -jar （...）.jar [原文路径] [抄袭文路径] [结果路径]");
             return;
         }
 
@@ -149,3 +149,4 @@ public class Main {
         }
     }
 }
+
